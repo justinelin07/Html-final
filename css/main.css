@@ -1,0 +1,235 @@
+*,*:before,*:after {
+    box-sizing:border-box;
+  }
+
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.topnav ul{
+  display: flex;
+  justify-content: end;
+  background: #f6f6f6;
+  padding: 9px;
+  width: 1000px;
+  margin: 0 auto;  
+}
+
+.topnav a {
+  text-decoration: none;
+}
+
+.topnav a:hover{
+  font-weight: bold;
+}
+
+.top1 {
+  color:#4460a0;
+  border-right: 1px solid #cccccc ;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.top2 {
+  color: #00aaec;
+}
+
+.header {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo  {
+  background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png);
+  display: block;
+  width: 200px;
+  height: 50px;
+  text-indent: 101%;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #00cc99;
+  margin-left: 30px;
+  display: block;
+  padding: 15px ;
+}
+
+.menu li a:hover{
+  border-bottom: 4px solid #00cc99;
+}
+
+.banner { margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 345px;
+  width: 990px;
+  background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png);
+  background-repeat: no-repeat;
+}
+
+
+.banner h2 {
+  color: #fff;
+  font-size: 33px;
+   background-color: rgba(255,255,255,0.2);
+  flex-grow: 1;
+  line-height: 1.5;
+  padding-left: 22px;
+}
+
+.main {
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.mainlist {
+  margin: 20px;
+  box-shadow:0 3px 3px   gray;
+}
+
+.main h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 13px;
+}
+
+.main p {
+  padding: 20px 10px;
+  font-size: 18px;
+  letter-spacing:3px;
+}
+
+.mainside {
+  list-style:disc;
+  margin-left: 50px;
+}
+
+
+.list h3 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 30px;
+  text-align: center;
+}
+
+.list table {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.list tr {
+  border-top:1px solid #d8d8d8;
+  border-bottom:1px solid #d8d8d8;
+}
+
+.list th {
+  padding: 20px  60px ;
+  font-weight: bold;
+  background: gray;
+}
+
+.list td {
+  padding: 20px 60px;
+}
+
+.list th,.list td {
+  text-align: left;
+}
+
+.list tr:hover {
+  background: #f6f6f6;
+}
+
+.color{
+  color: #00cc99;
+}
+
+.footer {
+  background: -webkit-linear-gradient(#00644b,#009872);
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  color: #fff;
+}
+
+.footer h3 {
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.footer form {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.footer textarea {
+  width: 500px;
+  height: 250px;
+  border-radius:5px;
+}
+
+.formlist {
+  display: flex;
+  flex-direction:column;  
+}
+
+.formlist input {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 30px;
+   border-radius:5px;
+}
+
+.formlist   .btn {
+  width: 100px;
+  margin-left: 200px;
+  background: #00cc99;
+  color: #fff;
+}
+
+.formlist   .btn:hover {
+  background: #fff;
+  color: #00cc99;
+}
+
+.bottom {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.bottom h2 a{
+  background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/footerLogo.png
+);
+  display: flex;
+  width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+  text-indent: 1000%;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.bottom li a {
+  text-decoration: none;
+  color: red; 
+}
+
+.bottom li a:hover {
+  color: gray;
+}
