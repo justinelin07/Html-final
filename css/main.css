@@ -12,8 +12,7 @@
   justify-content: end;
   background: #f6f6f6;
   padding: 9px;
-  width: 1000px;
-  margin: 0 auto;  
+  width: 1000px; 
 }
 
 .topnav a {
@@ -24,20 +23,19 @@
   font-weight: bold;
 }
 
-.top1 {
+.fblogo {
   color:#4460a0;
   border-right: 1px solid #cccccc ;
   margin-right: 10px;
   padding-right: 10px;
 }
 
-.top2 {
+.twlogo {
   color: #00aaec;
 }
 
 .header {
   width: 1000px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -102,7 +100,6 @@
 .main {
   width: 1000px;
   display: flex;
-  margin: 0 auto;
 }
 
 .mainlist {
@@ -136,8 +133,8 @@
 }
 
 .list table {
-  margin: 0 auto;
   margin-bottom: 20px;
+  margin: 0 auto;
 }
 
 .list tr {
@@ -179,6 +176,7 @@
   text-align: center;
   font-size: 24px;
   padding: 20px;
+  line-height: 48px;
 }
 
 .footer form {
@@ -195,21 +193,26 @@
 
 .formlist {
   display: flex;
-  flex-direction:column;  
+  flex-direction:column;
 }
 
 .formlist input {
   width: 300px;
-  height: 30px;
+  cursor: pointer;
   margin-bottom: 30px;
-   border-radius:5px;
+  border-radius:5px;
+}
+
+.btnbox {
+  display: flex;
+  justify-content: end;
 }
 
 .formlist   .btn {
   width: 100px;
-  margin-left: 200px;
   background: #00cc99;
   color: #fff;
+ 
 }
 
 .formlist   .btn:hover {
@@ -221,7 +224,6 @@
   width: 1000px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
   margin-top: 30px;
 }
 
